@@ -96,7 +96,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 [Website] - [coming soon]
 
-Project Link: https://github.com/ali-bouali/springboot-3-micro-service-demo
+Project Link: https://github.com/kiptalam25/spring_microservices
 
 ## Acknowledgements
 
