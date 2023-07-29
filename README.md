@@ -42,7 +42,7 @@ Ensure you have the following software installed on your system before proceedin
 
 1. Clone the repository:
 
-```git clone git remote add origin git@github.com:ali-bouali/springboot-3-micro-service-demo.git```
+```git clone https://github.com/kiptalam25/spring_microservices.git```
 
 2. Navigate to the project directory:
 3. Build and package each component with Maven:
@@ -92,9 +92,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-[Ali Bouali] - [contact@aliboucoding.com]
+[Kiptalam] - [kiptalamj@gmail.com]
 
-[Website] - [https://aliboucoding.com/courses]
+[Website] - [coming soon]
 
 Project Link: https://github.com/ali-bouali/springboot-3-micro-service-demo
 
