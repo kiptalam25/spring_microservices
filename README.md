@@ -1,6 +1,6 @@
-# Microservices Demo Project
+# Microservices Project
 
-#### by Alibou (https://aliboucoding.com/courses)
+#### by Kiptalam (https://kiptalamj)
 
 ![alt text](diagram.png)
 
