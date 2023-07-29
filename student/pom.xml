@@ -24,10 +24,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
@@ -39,11 +35,7 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -62,6 +54,35 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>io.r2dbc</groupId>-->
+<!--			<artifactId>r2dbc-spi</artifactId>-->
+<!--		</dependency>-->
+		<!-- https://mvnrepository.com/artifact/io.r2dbc/r2dbc-mssql -->
+<!--		<dependency>-->
+<!--			<groupId>io.r2dbc</groupId>-->
+<!--			<artifactId>r2dbc-mssql</artifactId>-->
+<!--			<version>0.9.0.RELEASE</version>-->
+<!--		</dependency>-->
+
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-data-r2dbc</artifactId>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-webflux</artifactId>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>dev.miku</groupId>-->
+<!--			<artifactId>r2dbc-mysql</artifactId>-->
+<!--			<version>0.8.2.RELEASE</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.flywaydb</groupId>-->
+<!--			<artifactId>flyway-core</artifactId>-->
+<!--			<version>7.14.0</version>-->
+<!--		</dependency>-->
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
@@ -77,6 +98,11 @@
 
 	<build>
 		<plugins>
+<!--			<plugin>-->
+<!--				<groupId>org.flywaydb</groupId>-->
+<!--				<artifactId>flyway-maven-plugin</artifactId>-->
+<!--				<version>7.14.0</version>-->
+<!--			</plugin>-->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

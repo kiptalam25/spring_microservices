@@ -1,20 +1,18 @@
 package com.alibou.student;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 import lombok.*;
+//import org.springframework.data.annotation.Id;
+//import org.springframework.data.relational.core.mapping.Table;
 
-@Entity
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+//@Table(name = "student")
 public class Student {
 
-    @Id
-    @GeneratedValue
+//    @Id
     private Integer id;
     private String firstname;
     private String lastname;
